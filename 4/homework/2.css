@@ -1,0 +1,21 @@
+.box{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+}
+.center{
+    display: flex;
+    align-self: center;
+}
+.right{
+    display: flex;
+    align-self: flex-end;
+}

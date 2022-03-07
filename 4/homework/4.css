@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.second{
+    background-color: gray;
+}
+.second-position{
+    position: relative;
+    left: 50px;
+    top: -50px;
+}

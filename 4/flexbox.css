@@ -1,0 +1,26 @@
+.mother{
+    border: 1px solid red;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.childeren{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+/*
+flexbox 의 특징!🎊
+
+1. display: flex는 모든 요소를 가로로 둔다 
+
+2. display: flex는 부모한테 적용을 하고 자손을 건트롤 한다.
+
+3. justify-content :가로로 요소들을 움직인다 (flex-start, center, flex-end, space-between, space-around 등의 값이 있음)
+
+4. align-items: 세로로 요소들을 움직인다  
+
+5. flex-direction:column 가로로 정렬된 요소를 세로로 바꾸고 justify-content는 세로로 align-items는 가로방향으로 바뀐다 
+*/
